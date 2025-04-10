@@ -44,3 +44,4 @@ Flexbox for navbar and navigation links alignment
 CSS Grid for responsive container layouts
 Media Queries  for adapting the layout to different screen sizes
 CSS Animations with `@keyframes` and `transition` for smooth effects
+as at 10th apil 205, i have added a scripts file, a real time clock on the home page, a change theme button, some faq questions and answers and a list of users fetched from an API.

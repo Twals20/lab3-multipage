@@ -227,3 +227,54 @@ footer {
         margin-bottom: 10px;
     }
 }
+.dark-theme { 
+    background-color: black; 
+    color: white; 
+    } 
+    #themeToggle {
+        margin: 1rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+      }
+      
+      .faq-answer {
+        display: none;
+        margin-left: 1rem;
+        color: black;
+      }
+      
+      .faq-question {
+        cursor: pointer;
+        margin: 0.5rem 0;
+      }
+      
+      /* This will show the answer when the question has the 'active' class */
+      .faq-question.active + .faq-answer {
+        display: block;
+      }
+      
+      
+      #userList {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      
+      #loadUsersBtn {
+        margin-top: 10px;
+        padding: 10px 15px;
+        background-color: #007acc;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      
+      #loadUsersBtn:hover {
+        background-color: #005fa3;
+      }
+     /* clock styling */
+     #clock {
+        font-size: 1.2rem;
+        color: #333;
+        margin-top: 0.5rem;
+      }
+      

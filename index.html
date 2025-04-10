@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+    <header>
+        <div id="clock"></div>
+      </header>
+      
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"defer></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
     <!-- Navbar -->
@@ -26,6 +32,9 @@
             <p class="text-lg">Explore our amazing features and learn more about us!</p>
         </div>
     </section>
+    <h2>TEAM MEMBERS!</h2> 
+<ul id="userList"></ul> 
+<button id="loadUsersBtn">Load Users</button>
 
     <!-- Main Content -->
     <div class="container mx-auto my-10 px-6 flex flex-col md:flex-row gap-6">
@@ -45,5 +54,10 @@
             </ul>
         </aside>
     </div>
+    
+   
+</div>
+</body>
+<button id="themeToggle">Switch Theme</button>
 </body>
 </html>
